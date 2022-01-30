@@ -5,7 +5,7 @@ A sua casa irá com você para todos os lugares que você for.
 Distro: 
 -------
 
-EndeavourOS (GNOME in Xorg)
+EndeavourOS (GNOME)
 
 Not included in pkg files:
 --------------------------
