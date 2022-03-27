@@ -2,35 +2,44 @@
 
 A sua casa irá com você para todos os lugares que você for.
 
-Distro: 
--------
+## Distro:
 
 EndeavourOS (GNOME)
 
-Not included in pkg files:
---------------------------
+## Not included in pkg files:
 
-- alacritty
-- fzf
-- nvm  
-- ohmyzsh 
-- qogir theme + icons (blue, dark, gdm, squares)
+-  alacritty
+-  fzf
+-  nvm
+-  ohmyzsh
+-  qogir theme + icons (blue, dark, gdm, squares)
 
 [...] anything that breaks 😜
 
-### Backup pkgs 
-```sh 
+## GNOME extensions:
 
-pacman -Qqe -t -n > .pkglist.txt 
+-  Blur my Shell
+-  Clipboard Indicator
+-  Gnome 4x UI Improvements
+-  gTile
+-  User Themes
+-  Vitals
+
+### Backup pkgs
+
+```sh
+
+pacman -Qqe -t -n > .pkglist.txt
 pacman -Qqem > .foreignpkglist.txt
 
 ```
 
 ### Install pkgs
+
 ```sh
 
 pacman -S --needed - < .pkglist.txt
 # Install foreign packages with (requires a AUR helper such as yay):
-yay -S --needed - < .foreignpkglist.txt 
+yay -S --needed - < .foreignpkglist.txt
 
 ```
