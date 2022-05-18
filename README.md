@@ -8,38 +8,17 @@ EndeavourOS (GNOME)
 
 ## Not included in pkg files:
 
--  alacritty
--  fzf
--  nvm
--  ohmyzsh
--  qogir theme + icons (blue, dark, gdm, squares)
+- terminator
+- fzf
+- nvm
+- ohmyzsh
+- qogir theme + icons (blue, dark, gdm, squares)
 
 [...] anything that breaks 😜
 
 ## GNOME extensions:
 
--  Blur my Shell
--  Clipboard Indicator
--  Gnome 4x UI Improvements
--  gTile
--  User Themes
--  Vitals
-
-### Backup pkgs
-
-```sh
-
-pacman -Qqe -t -n > .pkglist.txt
-pacman -Qqem > .foreignpkglist.txt
-
-```
-
-### Install pkgs
-
-```sh
-
-pacman -S --needed - < .pkglist.txt
-# Install foreign packages with (requires a AUR helper such as yay):
-yay -S --needed - < .foreignpkglist.txt
-
-```
+- Blur my Shell
+- Gnome 4x UI Improvements
+- gTile
+- User Themes
