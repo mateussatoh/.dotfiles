@@ -1,8 +1,0 @@
-chrome-gnome-shell
-google-chrome
-insomnia-bin
-ryzen-controller-bin
-spotify
-ulauncher
-visual-studio-code-bin
-yadm-git
