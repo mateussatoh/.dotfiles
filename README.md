@@ -1,5 +1,3 @@
-<img src="" />
-
 A sua casa irá com você para todos os lugares que você for.
 
 ## Distro:
