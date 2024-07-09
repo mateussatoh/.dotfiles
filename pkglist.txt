@@ -15,3 +15,7 @@ yadm
 yay
 zsh
 zsh-antidote
+noto-fonts-emoji
+docker
+dbeaver
+noto-fonts-emoji
